@@ -51,7 +51,7 @@ void convertToPostfix(string input){
             if (top == -1){
                 push(input[i]);
                     } else {
-                        if (input[i] == '(' || peek() == ')'){
+                        if (input[i] == '(' || peek() == '('){
                             push(input[i]);
                         } else {
                             if (input[i] == ')'){
