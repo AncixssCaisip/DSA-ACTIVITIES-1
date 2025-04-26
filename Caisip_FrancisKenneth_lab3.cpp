@@ -24,7 +24,7 @@ char peek(){
 int checkLevel(char operation){
     int level;
     
-    if(operation == '(' || operation == ')'){
+    if(operation == '(' || operation == '('){
         level = 0;
     }else if(operation == '^'){
         level = 1;
